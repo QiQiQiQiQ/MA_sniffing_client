@@ -10,4 +10,4 @@ libpcap library should be installed previously
 
 compile the source code: g++ -o <object name> sniffer.cpp -lpcap
 
-run sudo bash sniff.sh to start sniffing, and please pay attention to the configuration in it.
+run "sudo bash sniff.sh" in terminal to start sniffing, and please pay attention to the configuration in it.
