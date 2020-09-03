@@ -10,6 +10,9 @@ driver: https://github.com/aircrack-ng/rtl8188eus
 
 The libpcap library should be installed previously
 
-compile the source code: g++ -o <object name> sniffer.cpp -lpcap
+compile the source code:
+~~~
+g++ -o <object name> sniffer.cpp -lpcap
+~~~
 
 run "sudo bash sniff.sh" in terminal to start sniffing, and please pay attention to the configuration in it.
